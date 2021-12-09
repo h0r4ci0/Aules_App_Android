@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.horacio.aules">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aules"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".Clases.ESO.eso_alicante"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.eso"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.ESO.eso_castellon"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.ESO.eso_valencia"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.Fp"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.docentes"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.formacion_del_profesorado"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.educacion_a_distancia"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.especials"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.fpa"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.fp_semipresencial"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.Bachillerato"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.primaria"
+            android:exported="true" />
+        <activity
+            android:name=".Clases.Infantil"
+            android:exported="true" />
+        <activity
+            android:name=".fragments.InicioFragment"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
