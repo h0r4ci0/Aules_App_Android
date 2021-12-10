@@ -28,7 +28,7 @@ public class educacion_a_distancia extends AppCompatActivity {
         web_educación_a_distancia.getSettings().setDomStorageEnabled(true);
         web_educación_a_distancia.loadUrl("https://aules.edu.gva.es/ed/login/index.php");
 
-        //DESCARGAS
+        // DESCARGAS
         web_educación_a_distancia.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
