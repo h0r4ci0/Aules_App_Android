@@ -10,6 +10,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
+import com.horacio.aules.Clases.ESO.eso_alicante;
 import com.horacio.aules.Clases.ESO.eso_valencia;
 import com.horacio.aules.R;
 
@@ -27,17 +28,18 @@ public class Bachillerato extends AppCompatActivity {
         web_Bachillerato.getSettings().setDomStorageEnabled(true);
         web_Bachillerato.loadUrl("https://aules.edu.gva.es/batxillerat/login/index.php");
 
+        //DESCARGAS
         web_Bachillerato.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
+
+                Toast.makeText(Bachillerato.this, "Inicia sesión para descargar el archivo", Toast.LENGTH_LONG).show();
             }
         });
-
     }
-
 
     @Override
     public void onBackPressed() {

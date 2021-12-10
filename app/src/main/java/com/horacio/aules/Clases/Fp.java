@@ -10,6 +10,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
+import com.horacio.aules.Clases.ESO.eso_alicante;
 import com.horacio.aules.Clases.ESO.eso_valencia;
 import com.horacio.aules.R;
 
@@ -28,17 +29,18 @@ public class Fp extends AppCompatActivity {
         web_Fp.getSettings().setDomStorageEnabled(true);
         web_Fp.loadUrl("https://aules.edu.gva.es/fp/login/index.php");
 
+        //DESCARGAS
         web_Fp.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
+
+                Toast.makeText(Fp.this, "Inicia sesión para descargar el archivo", Toast.LENGTH_LONG).show();
             }
         });
-
     }
-
 
     @Override
     public void onBackPressed() {

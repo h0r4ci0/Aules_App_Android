@@ -51,7 +51,6 @@ public class eso_valencia extends AppCompatActivity {
         } */
 
         //DESCARGAS
-
         web_eso_valencia.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
@@ -59,10 +58,9 @@ public class eso_valencia extends AppCompatActivity {
                 i.setData(Uri.parse(url));
                 startActivity(i);
 
-                Toast.makeText(eso_valencia.this, "Inicia sesion para descargar el archivo", Toast.LENGTH_LONG).show();
+                Toast.makeText(eso_valencia.this, "Inicia sesión para descargar el archivo", Toast.LENGTH_LONG).show();
             }
         });
-
     }
 
       /*  web_eso_valencia.setDownloadListener(new DownloadListener() {

@@ -26,12 +26,15 @@ public class eso_alicante extends AppCompatActivity {
         web_eso_alicante.getSettings().setDomStorageEnabled(true);
         web_eso_alicante.loadUrl("https://aules.edu.gva.es/eso12/login/index.php");
 
+        //DESCARGAS
         web_eso_alicante.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
+
+                Toast.makeText(eso_alicante.this, "Inicia sesión para descargar el archivo", Toast.LENGTH_LONG).show();
             }
         });
     }

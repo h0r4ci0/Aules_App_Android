@@ -26,17 +26,18 @@ public class eso_castellon extends AppCompatActivity {
         web_eso_castellón.getSettings().setDomStorageEnabled(true);
         web_eso_castellón.loadUrl("https://aules.edu.gva.es/eso12/login/index.php");
 
+        //DESCARGAS
         web_eso_castellón.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
+
+                Toast.makeText(eso_castellon.this, "Inicia sesión para descargar el archivo", Toast.LENGTH_LONG).show();
             }
         });
-
     }
-
 
     @Override
     public void onBackPressed() {

@@ -10,6 +10,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
+import com.horacio.aules.Clases.ESO.eso_alicante;
 import com.horacio.aules.Clases.ESO.eso_valencia;
 import com.horacio.aules.R;
 
@@ -27,17 +28,18 @@ public class educacion_a_distancia extends AppCompatActivity {
         web_educación_a_distancia.getSettings().setDomStorageEnabled(true);
         web_educación_a_distancia.loadUrl("https://aules.edu.gva.es/ed/login/index.php");
 
+        //DESCARGAS
         web_educación_a_distancia.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
+
+                Toast.makeText(educacion_a_distancia.this, "Inicia sesión para descargar el archivo", Toast.LENGTH_LONG).show();
             }
         });
-
     }
-
 
     @Override
     public void onBackPressed() {

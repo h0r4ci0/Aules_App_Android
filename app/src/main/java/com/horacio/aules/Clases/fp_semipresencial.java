@@ -10,6 +10,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
+import com.horacio.aules.Clases.ESO.eso_alicante;
 import com.horacio.aules.Clases.ESO.eso_valencia;
 import com.horacio.aules.R;
 
@@ -27,17 +28,18 @@ public class fp_semipresencial extends AppCompatActivity {
         web_Fp_Semipresencial.getSettings().setDomStorageEnabled(true);
         web_Fp_Semipresencial.loadUrl("https://aules.edu.gva.es/semipresencial/login/index.php");
 
+        //DESCARGAS
         web_Fp_Semipresencial.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
+
+                Toast.makeText(fp_semipresencial.this, "Inicia sesión para descargar el archivo", Toast.LENGTH_LONG).show();
             }
         });
-
     }
-
 
     @Override
     public void onBackPressed() {
