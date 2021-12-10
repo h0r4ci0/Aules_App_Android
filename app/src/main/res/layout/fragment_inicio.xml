@@ -149,7 +149,7 @@
 
             </android.support.v7.widget.CardView>
 
-            //ESO
+            // ESO
 
             <android.support.v7.widget.CardView
                 android:id="@+id/cardESO"
