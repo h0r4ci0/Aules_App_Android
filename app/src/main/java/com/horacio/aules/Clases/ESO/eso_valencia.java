@@ -10,11 +10,13 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.DownloadListener;
+import android.webkit.ValueCallback;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
+import com.horacio.aules.MainActivity;
 import com.horacio.aules.R;
 
 public class eso_valencia extends AppCompatActivity {
@@ -62,6 +64,12 @@ public class eso_valencia extends AppCompatActivity {
             }
         });
     }
+
+    //SUBIDA DE ARCHIVOS
+
+
+
+    //DESCARGAS_METODO_2
 
       /*  web_eso_valencia.setDownloadListener(new DownloadListener() {
             @Override
