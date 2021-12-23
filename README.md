@@ -6,7 +6,7 @@ Quiero recordar que esta aplicación no es oficial. Nadie relacionado con Aules 
 
 # Descargas
 
-Puedes descargar la aplicación directamente desde este [enlace](https://bit.ly/31BrAxC).
+Puedes descargar la aplicación directamente desde este [enlace](https://bit.ly/3ySEgMs).
 
 También puedes descargar la aplicación desde:
 
