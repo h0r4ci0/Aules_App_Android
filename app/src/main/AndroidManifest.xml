@@ -18,57 +18,71 @@
 
         <activity
             android:name=".Clases.ESO.eso_alicante"
+            android:theme="@style/ESO"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.eso"
+            android:theme="@style/ESO_HOME"
             android:exported="true" />
         <activity
             android:name=".Clases.ESO.eso_castellon"
+            android:theme="@style/ESO"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.ESO.eso_valencia"
+            android:theme="@style/ESO"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.Fp"
+            android:theme="@style/FP"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.docentes"
+            android:theme="@style/Docent"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.formacion_del_profesorado"
+            android:theme="@style/Formacion_del_profesorado"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.educacion_a_distancia"
+            android:theme="@style/Educacio_a_distancia"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.especials"
+            android:theme="@style/Especials"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.fpa"
+            android:theme="@style/FPA"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.fp_semipresencial"
+            android:theme="@style/FP_Semipresencial"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.Bachillerato"
+            android:theme="@style/Batxillerat"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.primaria"
+            android:theme="@style/Primaria"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Clases.Infantil"
+            android:theme="@style/Infatil"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
@@ -77,6 +91,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
+            android:theme="@style/MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

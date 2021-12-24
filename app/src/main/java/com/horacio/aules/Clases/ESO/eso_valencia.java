@@ -33,25 +33,6 @@ public class eso_valencia extends AppCompatActivity {
         web_eso_valencia.getSettings().setDomStorageEnabled(true);
         web_eso_valencia.loadUrl("https://aules.edu.gva.es/eso46/login/index.php"); //https://aules.edu.gva.es/eso46/login/index.php
 
-     /*   //COLORES SYSTEMUI
-
-         String primaryDark = "#3b8480";
-         String primary = "#3b8480";
-         String background = "#3b8480";
-
-         private void cambiarColor(primaryDark, primary, background){
-            //Color primary dark
-            getWindow().setBackgroundDrawable(new ColorDrawable(Color.parseColor(primaryDark)));
-
-            //Color Primary
-
-            getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor(primary)));
-
-            //Background
-
-            getWindow().setBackgroundDrawable(new ColorDrawable(Color.parseColor(background)));
-        } */
-
         //DESCARGAS
         web_eso_valencia.setDownloadListener(new DownloadListener() {
             @Override
