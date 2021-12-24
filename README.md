@@ -6,13 +6,7 @@ Quiero recordar que esta aplicación no es oficial. Nadie relacionado con Aules 
 
 # Descargas
 
-Puedes descargar la aplicación directamente desde este [enlace](https://bit.ly/3ySEgMs).
-
-También puedes descargar la aplicación desde:
-
- - [Amazon Appstore](https://amzn.to/3FBZzEV)
-
-Ahora mismo estamos en versión de pruebas. Por lo que es muy probable que experimentes errores.
+Próximamente
 
 # Imágenes
 
