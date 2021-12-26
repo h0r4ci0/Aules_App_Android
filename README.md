@@ -9,20 +9,22 @@ Quiero recordar que esta aplicación no es oficial. Nadie relacionado con Aules 
 Próximamente
 
 # Imágenes
-
-![Pantalla de inicio](https://user-images.githubusercontent.com/87150874/144893232-7f727a31-33a3-4a7f-b494-a53a731eb1f5.jpg)
-
-  
-![Aule ESO](https://user-images.githubusercontent.com/87150874/144893298-8218cb96-4f22-4390-9558-a44e43634631.jpg)
+![Pantalla de inicio](https://user-images.githubusercontent.com/87150874/147409608-e8a54ebf-413a-451f-8edb-0d2fb2d2ca28.jpg)
 
 
-![Aules Login ESO](https://user-images.githubusercontent.com/87150874/144893352-dbeb9ac4-4956-4aa7-8287-a271954c9fdd.jpg)
+![CardView](https://user-images.githubusercontent.com/87150874/147409618-57065afb-b86f-4785-b288-125ec9122fd5.jpg)
 
 
-![Pantalla de inicio ESO](https://user-images.githubusercontent.com/87150874/144893476-1808f1ce-9e3e-416d-960c-13beac5c7c2c.jpg)
+![ESO](https://user-images.githubusercontent.com/87150874/147409639-9b45f726-ba90-4abf-956d-2b4fdd84d8ae.jpg)
 
 
-![Vista de archivos](https://user-images.githubusercontent.com/87150874/144893537-685cedde-7488-45d3-b1c8-1c7af2e9d3a3.jpg)
+![ESO_LOGIN](https://user-images.githubusercontent.com/87150874/147409650-120cd353-d5c4-4127-9749-2a2dde07b76b.jpg)
 
 
-![Vista de subir archivos](https://user-images.githubusercontent.com/87150874/144893595-3d51c508-f98a-4559-8303-3d9976fb1254.jpg)
+![Cursos_AULES](https://user-images.githubusercontent.com/87150874/147409669-9894831a-d235-4d6e-ae5f-47786c7be6c5.jpg)
+
+
+![Aules_tarea](https://user-images.githubusercontent.com/87150874/147409758-a1efabcd-03b1-4a1c-8ca0-708ced4eab47.jpg)
+
+
+![Aules_Edit_Tarea](https://user-images.githubusercontent.com/87150874/147410052-369bf24e-1142-4423-85cd-24f86c9ddcf0.jpg)
