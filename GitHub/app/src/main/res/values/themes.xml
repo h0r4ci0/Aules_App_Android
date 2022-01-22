@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Aules" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/fragment_inicio</item>
+        <item name="colorPrimaryDark">@color/fragment_inicio</item>
+        <item name="colorAccent">@color/fragment_inicio</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MainActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/splash_screen</item>
+        <item name="colorPrimaryDark">@color/splash_screen</item>
+    </style>
+
+    <style name="Infatil" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/infantil</item>
+        <item name="colorPrimaryDark">@color/infantil</item>
+    </style>
+
+    <style name="Primaria" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryDark">@color/primaria</item>
+    </style>
+
+    <style name="ESO_HOME" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/eso_home</item>
+        <item name="colorPrimaryDark">@color/eso_home</item>
+    </style>
+
+    <style name="ESO" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/eso</item>
+        <item name="colorPrimaryDark">@color/eso</item>
+    </style>
+
+    <style name="Batxillerat" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/batxillerat</item>
+        <item name="colorPrimaryDark">@color/batxillerat</item>
+    </style>
+
+    <style name="FP" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/FP</item>
+        <item name="colorPrimaryDark">@color/FP</item>
+    </style>
+
+    <style name="FP_Semipresencial" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name ="colorPrimary">@color/FPseemipresencial</item>
+        <item name="colorPrimaryDark">@color/FPseemipresencial</item>
+    </style>
+
+    <style name="FPA" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/FPA</item>
+        <item name="colorPrimaryDark">@color/FPA</item>
+    </style>
+
+    <style name="Especials" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Especials</item>
+        <item name="colorPrimaryDark">@color/Especials</item>
+    </style>
+
+    <style name="Educacio_a_distancia" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Educacion_a_distancia</item>
+        <item name="colorPrimaryDark">@color/Educacion_a_distancia</item>
+    </style>
+
+    <style name="Formacion_del_profesorado" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Formacion_del_profesorat</item>
+        <item name="colorPrimaryDark">@color/Formacion_del_profesorat</item>
+    </style>
+
+    <style name="Docent" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Docents</item>
+        <item name="colorPrimaryDark">@color/Docents</item>
+    </style>
+
+    <style name="Theme.Aules.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Aules.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Aules.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
