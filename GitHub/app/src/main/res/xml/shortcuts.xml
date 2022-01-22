@@ -1,0 +1,32 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="ESO"
+        android:enabled="true"
+        android:icon="@drawable/shortcuts_eso"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label1"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label1">
+
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.horacio.aules"
+            android:targetClass="com.horacio.aules.Clases.eso" />
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="Infantil"
+        android:enabled="true"
+        android:icon="@drawable/infantil"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label2"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label2">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.horacio.aules"
+            android:targetClass="com.horacio.aules.Clases.Infantil" />
+
+
+    </shortcut>
+
+</shortcuts>
