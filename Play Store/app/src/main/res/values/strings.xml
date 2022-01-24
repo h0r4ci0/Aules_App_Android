@@ -12,8 +12,17 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="compose_shortcut_long_label1">ESO</string>
-    <string name="compose_shortcut_long_label2">Infantil</string>
+    <string name="compose_shortcut_long_label1">Infantil</string>
+    <string name="compose_shortcut_long_label2">Primaria</string>
+    <string name="compose_shortcut_long_label3">ESO</string>
+    <string name="compose_shortcut_long_label4">Bachillerato</string>
+    <string name="compose_shortcut_long_label5">FP</string>
+    <string name="compose_shortcut_long_label6" />
     <string name="compose_shortcut_short_label1" />
     <string name="compose_shortcut_short_label2" />
+    <string name="compose_shortcut_short_label3" />
+    <string name="compose_shortcut_short_label4" />
+    <string name="compose_shortcut_short_label5" />
+    <string name="compose_shortcut_short_label6" />
+    <string name="compose_shortcut_short_label7" />
 </resources>

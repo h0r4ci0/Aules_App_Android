@@ -1,10 +1,40 @@
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
     <shortcut
+        android:shortcutId="Infantil"
+        android:enabled="true"
+        android:icon="@drawable/shortcuts_infantil"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label1"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label1">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.horacio.aules"
+            android:targetClass="com.horacio.aules.Clases.Infantil" />
+
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="Primaria"
+        android:enabled="true"
+        android:icon="@drawable/shortcuts_primaria"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label2"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label2">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.horacio.aules"
+            android:targetClass="com.horacio.aules.Clases.primaria" />
+
+
+    </shortcut>
+
+    <shortcut
         android:shortcutId="ESO"
         android:enabled="true"
         android:icon="@drawable/shortcuts_eso"
-        android:shortcutLongLabel="@string/compose_shortcut_long_label1"
-        android:shortcutShortLabel="@string/compose_shortcut_short_label1">
+        android:shortcutLongLabel="@string/compose_shortcut_long_label3"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label3">
 
 
         <intent
@@ -15,18 +45,19 @@
     </shortcut>
 
     <shortcut
-        android:shortcutId="Infantil"
+        android:shortcutId="Bachillerato"
         android:enabled="true"
-        android:icon="@drawable/infantil"
-        android:shortcutLongLabel="@string/compose_shortcut_long_label2"
-        android:shortcutShortLabel="@string/compose_shortcut_short_label2">
+        android:icon="@drawable/shortcuts_bachillerato"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label4"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label4">
+
 
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="com.horacio.aules"
-            android:targetClass="com.horacio.aules.Clases.Infantil" />
-
+            android:targetClass="com.horacio.aules.Clases.Bachillerato" />
 
     </shortcut>
+
 
 </shortcuts>
