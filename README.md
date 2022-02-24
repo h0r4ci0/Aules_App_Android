@@ -6,7 +6,7 @@ Quiero recordar que esta aplicación no es oficial. Nadie relacionado con Aules 
 
 # Descargas
 
-Próximamente
+Puedes descargar la versión de AulesAPP que prefieras desde [aquí](https://github.com/horacio507/Aules_App_Android/releases).
 
 # Imágenes
 ![Pantalla de inicio](https://user-images.githubusercontent.com/87150874/147409608-e8a54ebf-413a-451f-8edb-0d2fb2d2ca28.jpg)
