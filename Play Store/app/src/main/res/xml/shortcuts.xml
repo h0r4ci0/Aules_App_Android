@@ -63,28 +63,12 @@
 
     </shortcut>
 
-    <shortcut
-        android:shortcutId="FP"
-        android:enabled="true"
-        android:icon="@drawable/shortcuts_fp"
-        android:shortcutLongLabel="@string/compose_shortcut_long_label5"
-        android:shortcutShortLabel="@string/compose_shortcut_short_label5">
-
-
-    </shortcut>
-
 
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="com.horacio.aules"
             android:targetClass="com.horacio.aules.Clases.fp" />
 
-        <shortcut
-            android:shortcutId="FP Semipresencial"
-            android:enabled="true"
-            android:icon="@drawable/shortcuts_fp_semipresencial"
-            android:shortcutLongLabel="@string/compose_shortcut_long_label6"
-            android:shortcutShortLabel="@string/compose_shortcut_short_label6">
 
 
         <intent
@@ -92,9 +76,6 @@
                 android:targetPackage="com.horacio.aules"
                 android:targetClass="com.horacio.aules.Clases.fp_semipresencial"
                android:shortcutShortLabel="@string/compose_shortcut_short_label7" />
-
-
-        </shortcut>
 
 
 </shortcuts>
